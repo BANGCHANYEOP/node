@@ -1,15 +1,16 @@
 {
-    "name": "TT",
-    "version": "1.0.1",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
+  "name": "TT",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
-    },
-    "dependencies" : {
-        "express" : "~4.9.x"
-    },
-    "author": "BANGJA",
-    "license": "MIT"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "~4.9.x"
+  },
+  "author": "BANGJA",
+  "license": "MIT"
 }
