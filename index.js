@@ -7,6 +7,7 @@ app.set("view engine", 'ejs');
 var data={count:0};
 app.get('/', function (req,res) {
   data.count++;
+  console.log('fucker')
   res.render('my_first_ejs',data);
 });
 app.get('/reset', function (req,res) {
@@ -23,5 +24,5 @@ app.get('/set/:num', function (req,res) {
 });
 
 app.listen(3000, function(){
-  console.log('Server On!');
+  console.log('Server On!!');
 });
